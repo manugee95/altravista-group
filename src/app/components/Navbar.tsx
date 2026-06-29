@@ -244,7 +244,7 @@ export default function Navbar() {
                   {link.label}
                 </NavLink>
               ))}
-              <div className="pt-3 border-t border-gray-100 mt-2">
+              {/* <div className="pt-3 border-t border-gray-100 mt-2">
                 {subsidiaries.map((sub) => (
                   <Link
                     key={sub.href}
@@ -257,7 +257,7 @@ export default function Navbar() {
                     <span className="text-xs text-gray-500">{sub.desc}</span>
                   </Link>
                 ))}
-              </div>
+              </div> */}
               <Link
                 to="/contact"
                 className="mt-3 bg-[#5B3E99] text-white text-sm font-semibold px-5 py-3 rounded-lg text-center"
